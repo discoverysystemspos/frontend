@@ -11,7 +11,7 @@ import { InicioComponent } from './inicio/inicio.component';
 
 const routes: Routes = [
   
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponent, data:{ titulo: 'Inicio'}  },
   { path: '**', component: NopagefoundComponent }  
 
