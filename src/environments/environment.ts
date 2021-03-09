@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  base_url: 'http://157.245.10.241:3000/api'
+  base_url: 'https://discoverysystemspos.com/api'
 };
 
 /*

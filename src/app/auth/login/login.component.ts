@@ -42,7 +42,7 @@ export class LoginComponent {
                       }
 
                       // INGRESAR
-                      this.router.navigateByUrl('/');
+                      this.router.navigateByUrl('/dashboard');
                       
                     }, (err) => {                      
                       Swal.fire('Error', err.error.msg, 'error');
