@@ -1,1 +1,536 @@
-<p>inicio works!</p>
+<header class="cs-header">
+    <div class="topbar topbar-dark bg-dark">
+        <div class="container d-md-flex align-items-center px-0 px-xl-3">
+
+            <div class="d-none d-md-block text-nowrap mr-3">
+                <i class="bi-telephone">                
+          </i><span class="text-muted mr-2">SERVICIO AL CLIENTE</span>
+                <a class="topbar-link mr-1" href="tel:3205792169">320-5792169</a>
+            </div>
+
+            <!-- <div class="d-flex text-md-right ml-md-auto"><a class="topbar-link pr-2 mr-4" href="order-tracking.html"><i class="fe-map-pin font-size-base opacity-60 mr-1"></i>Track <span class='d-none d-sm-inline'>your order</span></a>
+          <div class="dropdown ml-auto ml-md-0 mr-3"><a class="topbar-link dropdown-toggle" href="#" data-toggle="dropdown"><img class="mr-2" width="20" src="img/flags/en.png" alt="English"/>Eng</a>
+            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><img class="mr-2" width="20" src="img/flags/fr.png" alt="Français"/>Français</a><a class="dropdown-item" href="#"><img class="mr-2" width="20" src="img/flags/de.png" alt="Deutsch"/>Deutsch</a><a class="dropdown-item" href="#"><img class="mt-n1 mr-2" width="20" src="img/flags/it.png" alt="Italiano"/>Italiano</a></div>
+          </div>
+          <div class="dropdown"><a class="topbar-link dropdown-toggle" href="#" data-toggle="dropdown">$ Pesos (COP)</a>
+            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">€ Euro (EU)</a><a class="dropdown-item" href="#">£ Pound (UK)</a><a class="dropdown-item" href="#">¥ Yen (JP)</a></div>
+          </div>
+        </div> -->
+
+        </div>
+    </div>
+    <div class="navbar navbar-expand-lg navbar-light bg-light navbar-box-shadow navbar-sticky" data-scroll-header>
+        <div class="navbar-search bg-light">
+            <div class="container d-flex flex-nowrap align-items-center"><i class="fe-search font-size-xl"></i>
+                <input class="form-control form-control-xl navbar-search-field" type="text" placeholder="Search site">
+                <div class="d-none d-sm-block flex-shrink-0 pl-2 mr-4 border-left border-right" style="width: 10rem;">
+                    <select class="form-control custom-select pl-2 pr-0">
+              <option value="all">All categories</option>
+              <option value="clothing">Clothing</option>
+              <option value="shoes">Shoes</option>
+              <option value="electronics">Electronics</option>
+              <option value="accessoriies">Accessories</option>
+              <option value="software">Software</option>
+              <option value="automotive">Automotive</option>
+            </select>
+                </div>
+                <div class="d-flex align-items-center"><span class="text-muted font-size-xs mt-1 d-none d-sm-inline">Close</span>
+                    <button class="close p-2" type="button" data-toggle="search">&times;</button>
+                </div>
+            </div>
+        </div>
+        <div class="container px-0 px-xl-3">
+
+            <button class="navbar-toggler ml-n2 mr-4" type="button" data-toggle="offcanvas" data-offcanvas-id="primaryMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <a class="navbar-brand order-lg-1 mx-auto ml-lg-0 pr-lg-2 mr-lg-4" href="index.html">
+                <!-- <img class="d-none d-lg-block" width="153" src="img/logo/logo-dark.png" alt="Around"/>
+          <img class="d-lg-none" width="58" src="img/logo/logo-icon.png" alt="Around"/> -->
+                DISCOVERY SYSTEMS POS
+            </a>
+
+            <div class="d-flex align-items-center order-lg-3 ml-lg-auto">
+                <div class="navbar-tool"><a class="navbar-tool-icon-box mr-2" href="#" data-toggle="search"><i class="bi-search"></i></a></div>
+                <div class="navbar-tool d-none d-sm-flex"><a class="navbar-tool-icon-box mr-2" href="#modal-signin" data-toggle="modal" data-view="#modal-signin-view"><i class="bi-box-arrow-in-right"></i></a></div>
+                <div class="border-left mr-2" style="height: 30px;"></div>
+                <!-- <div class="navbar-tool mr-2"><a class="navbar-tool-icon-box" href="#" data-toggle="offcanvas" data-offcanvas-id="shoppingCart"><i class="cart2"></i><span class="navbar-tool-badge">3</span></a></div> -->
+            </div>
+            <div class="cs-offcanvas-collapse order-lg-2" id="primaryMenu">
+                <div class="cs-offcanvas-cap navbar-box-shadow">
+                    <h5 class="mt-1 mb-0">Menu</h5>
+                    <button class="close lead" type="button" data-toggle="offcanvas" data-offcanvas-id="primaryMenu"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="cs-offcanvas-cap border-top">
+                    <a class="btn btn-translucent-primary btn-block cursor ">
+                        <i class="fe-user font-size-lg mr-2"></i>Sign in
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Page content-->
+
+<section class="position-relative bg-gradient pt-5 pt-lg-6 pb-7 mb-5">
+    <div class="cs-shape cs-shape-bottom cs-shape-curve bg-body">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+        <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+      </svg>
+    </div>
+    <!-- Tabs-->
+    <div class="container pb-7">
+        <div class="row align-items-center pb-7">
+            <div class="col-lg-3">
+                <ul class="nav nav-tabs cs-media-tabs cs-media-tabs-light justify-content-center justify-content-lg-start pb-3 mb-4 pb-lg-0 mb-lg-0" role="tablist">
+
+                    <li class="nav-item mb-3" style="max-width: 16.25rem;">
+                        <a class="nav-link active" href="#camera" data-bs-toggle="tab" data-bs-target="#camera" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                            <div class="media align-items-center"><img class="rounded" width="60" src="../../assets/img/pos.webp" alt="Product" />
+                                <div class="media-body pl-2 ml-1">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="font-size-sm pr-1">SISTEMA POS + SOFTWARE</div><i class="bi-chevron-right" class="lead ml-2 mr-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item mb-3" style="max-width: 16.25rem;">
+                        <a class="nav-link" href="#sneakers" data-bs-toggle="tab" data-bs-target="#sneakers" type="button" role="tab" aria-controls="nav-home" aria-selected="false">
+                            <div class="media align-items-center"><img class="rounded" width="60" src="../../assets/img/domoptz.webp" alt="Product" />
+                                <div class="media-body pl-2 ml-1">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="font-size-sm pr-1">Seguridad Electronica</div><i class="bi-chevron-right" class="lead ml-2 mr-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" style="max-width: 16.25rem;">
+                        <a class="nav-link" href="#vr" data-bs-toggle="tab" data-bs-target="#vr" type="button" role="tab" aria-controls="nav-home" aria-selected="false">
+                            <div class="media align-items-center"><img class="rounded" width="60" src="../../assets/img/wyse.webp" alt="Product" />
+                                <div class="media-body pl-2 ml-1">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="font-size-sm pr-1">Sistema POS con cpu Wyse Dell</div><i class="bi-chevron-right" class="lead ml-2 mr-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="camera" role="tabpanel" aria-labelledby="camera-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
+                                <div class="mx-auto" style="max-width: 443px;"><img src="../../assets/img/pos.webp" alt="Security Camera" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 order-lg-1 text-center text-lg-left">
+                                <div class="pl-xl-5">
+                                    <h2 class="h1 text-light">INCLUYE:</h2>
+
+                                    <div class="mb-lg-4">
+
+                                        <p class="font-size-lg text-light mb-lg-2">
+                                            <i class="check2"></i> COMPUTADOR CORPORATIVO <br>
+                                        </p>
+                                        <p class="font-size-lg text-light mb-lg-2 text-wrap">
+                                            <i class="check2"></i>KIT POS:
+                                            <small class="text-white-50"> Cajon Monedero, Lector de codigos de barras, Impresora POS</small>
+                                        </p>
+                                        <p class="font-size-lg text-light mb-lg-2 text-wrap">
+                                            <i class="check2"></i> SOFTWARE PROPIO DSPOS:
+                                            <small class="text-white-50">de por vida sin pagos mensuales ni anuales.</small>
+                                        </p>
+                                        <p class="font-size-lg text-light mb-lg-2 text-wrap">
+                                            <i class="check2"></i> SOPORTE GRATUITO SIEMPRE:
+                                            <small class="text-white-50">brindamos soporte gratuito siempre sin ningun costo</small>
+                                        </p>
+                                        <p class="font-size-lg text-light mb-lg-2 text-wrap">
+                                            <i class="check2"></i> 1 AÑO DE GARANTIA
+                                        </p>
+                                    </div>
+
+                                    <a class="btn btn-sm btn-success" href="#">COTIZAR PARA MI NEGOCIO</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="sneakers" role="tabpanel" aria-labelledby="sneakers-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
+                                <div class="mx-auto" style="max-width: 443px;"><img src="../../assets/img/domoptz.webp" alt="Running Sneakers" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1 text-center text-lg-left">
+                                <div class="pl-xl-5">
+                                    <h2 class="h1 text-light">Proteje tu mayor inversion</h2>
+                                    <p class="font-size-lg text-light mb-lg-5">sistemas de seguridad y camaras de vigilancia, controle su negocio desde cualquier lugar</p><a class="btn btn-translucent-light" href="#">Ir a seguridad</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="vr" role="tabpanel" aria-labelledby="sneakers-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
+                                <div class="mx-auto" style="max-width: 443px;"><img src="../../assets/img/wyse.webp" alt="VR Headset" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1 text-center text-lg-left">
+                                <div class="pl-xl-5">
+                                    <h2 class="h1 text-light">Sistemas POS, Con CPU Mini</h2>
+                                    <p class="font-size-lg text-light mb-lg-5">Ideal para espacios reducidos o pequeños empresarios</p><a class="btn btn-translucent-light" href="#">Ordenar - $1,200,000.00</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+
+    <div class="d-flex flex-wrap justyfy-content-center mt-n10 position-relative container" style="z-index: 1100;">
+
+        <!-- Category-->
+        <div class="pb-2 col-md-4">
+            <a class="card card-category box-shadow mx-1" href="#">
+                <span class="badge badge-lg badge-floating badge-floating-right badge-info">Micro Mercados</span>
+                <img class="card-img-top" src="../../assets/img/market.webp" alt="Electronics" />
+                <div class="card-body">
+                    <h4 class="card-title">Mercados</h4>
+                </div>
+            </a>
+        </div>
+
+        <!-- Category-->
+        <div class="pb-2 col-md-4">
+            <a class="card card-category box-shadow mx-1" href="#">
+                <span class="badge badge-lg badge-floating badge-floating-right badge-success">Tiendas</span>
+                <img class="card-img-top" src="../../assets/img/store.webp" alt="Clothing" />
+                <div class="card-body">
+                    <h4 class="card-title">Tiendas</h4>
+                </div>
+            </a>
+        </div>
+
+        <!-- Category-->
+        <div class="pb-2 col-md-4">
+            <a class="card card-category box-shadow mx-1" href="#">
+                <span class="badge badge-lg badge-floating badge-floating-right badge-danger">Restaurantes</span>
+                <img class="card-img-top" src="../../assets/img/restaurant.webp" alt="Accessories" />
+                <div class="card-body">
+                    <h4 class="card-title">Restaurantes</h4>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container pt-5 mt-5 mt-md-0 pt-md-6 pt-lg-7">
+    <h2 class="text-center mb-5">Productos</h2>
+    <div class="row pb-1">
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover">
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/01.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Men's clothing</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">Simple Cotton Gray T-shirt</a></h3><span class="text-heading font-weight-semibold">$19.00</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover">
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/02.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Electronics</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">Wireless Headphones</a></h3><span class="text-heading font-weight-semibold">$165.00</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover"><span class="badge badge-floating badge-pill badge-success">New</span>
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/03.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Accessories</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">Military Cotton Cap</a></h3><span class="text-heading font-weight-semibold">$28.00</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star"></i><i class="sr-star fe-star"></i><i class="sr-star fe-star"></i><i class="sr-star fe-star"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover">
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/09.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Women's shoes</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">Women Colorblock Sneakers</a></h3><span class="text-heading font-weight-semibold">$154.00</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover"><span class="badge badge-floating badge-pill badge-danger">Sale</span>
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/04.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Electronics</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">360 Degrees Camera</a></h3>
+                    <del class="font-size-sm text-muted mr-1">$120.40</del><span class="text-heading font-weight-semibold">$98.75</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover">
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/07.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Accessories</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">3-Color Sun Stash Hat</a></h3><span class="text-heading font-weight-semibold">$25.99</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover"><span class="badge badge-floating badge-pill badge-warning">Top rated</span>
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/06.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Backpacks</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">Vintage Travel Backpack</a></h3><span class="text-heading font-weight-semibold">$82.00</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card card-product card-hover">
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/08.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Electronics</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">Speaker with Voice Control</a></h3><span class="text-heading font-weight-semibold">$49.99</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Item-->
+        <div class="col-lg-3 col-md-4 col-sm-6 d-none d-md-block d-lg-none mb-grid-gutter">
+            <div class="card card-product card-hover">
+                <a class="card-img-top" href="shop-single.html"><img src="img/shop/catalog/05.jpg" alt="Product thumbnail" /></a>
+                <div class="card-body"><a class="meta-link font-size-xs mb-1" href="#">Men's shoes</a>
+                    <h3 class="font-size-md font-weight-medium mb-2"><a class="meta-link" href="shop-single.html">Sport Running Sneakers</a></h3><span class="text-heading font-weight-semibold">$140.00</span>
+                </div>
+                <div class="card-footer">
+                    <div class="star-rating"><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star-filled active"></i><i class="sr-star fe-star"></i>
+                    </div>
+                    <div class="d-flex align-items-center"><a class="btn-wishlist" href="#"><i class="fe-heart"></i><span class="btn-tooltip">Wishlist</span></a><span class="btn-divider"></span><a class="btn-addtocart" href="#"><i class="fe-shopping-cart"></i><span class="btn-tooltip">To Cart</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="text-center">
+        <a class="btn btn-outline-primary" href="shop-ls.html">Mas productos</a>
+    </div> -->
+
+</section>
+<!-- New arrivals (widget) + Promo banner-->
+
+<!-- Brands-->
+<section class="container pt-5 mt-3 mt-md-0 pt-md-6 pt-lg-7 pb-md-4">
+    <h2 class="mb-5 text-center">Marcas</h2>
+    <div class="row">
+
+        <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter">
+            <a class="card border-0 box-shadow card-hover py-3 py-sm-4" href="#" style="min-height: 100px;">
+                <div class="card-body px-1 d-flex align-items-center py-0 text-center">
+                    <div class="cs-swap-image mx-auto ">
+                        <img class="cs-swap-to" width="150" src="../../assets/img/sat.webp" alt="Brand logo" />
+                        <img class="cs-swap-from" width="150" src="../../assets/img/sat.webp" alt="Brand logo" />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter">
+            <a class="card border-0 box-shadow card-hover py-3 py-sm-4" href="#" style="min-height: 100px;">
+                <div class="card-body px-1 d-flex align-items-center py-0 text-center">
+                    <div class="cs-swap-image mx-auto ">
+                        <img class="cs-swap-to" width="100" src="../../assets/img/dell.webp" alt="Brand logo" />
+                        <img class="cs-swap-from" width="100" src="../../assets/img/dell.webp" alt="Brand logo" />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter">
+            <a class="card border-0 box-shadow card-hover py-3 py-sm-4" href="#" style="min-height: 100px;">
+                <div class="card-body px-1 d-flex align-items-center py-0 text-center">
+                    <div class="cs-swap-image mx-auto ">
+                        <img class="cs-swap-to" width="150" src="../../assets/img/lenovo.webp" alt="Brand logo" />
+                        <img class="cs-swap-from" width="150" src="../../assets/img/lenovo.webp" alt="Brand logo" />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter">
+            <a class="card border-0 box-shadow card-hover py-3 py-sm-4" href="#" style="min-height: 100px;">
+                <div class="card-body px-1 d-flex align-items-center py-0 text-center">
+                    <div class="cs-swap-image mx-auto ">
+                        <img class="cs-swap-to" width="150" src="../../assets/img/aoc.webp" alt="Brand logo" />
+                        <img class="cs-swap-from" width="150" src="../../assets/img/aoc.webp" alt="Brand logo" />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter">
+            <a class="card border-0 box-shadow card-hover py-3 py-sm-4" href="#" style="min-height: 100px;">
+                <div class="card-body px-1 d-flex align-items-center py-0 text-center">
+                    <div class="cs-swap-image mx-auto ">
+                        <img class="cs-swap-to" width="150" src="../../assets/img/xprinter.webp" alt="Brand logo" />
+                        <img class="cs-swap-from" width="150" src="../../assets/img/xprinter.webp" alt="Brand logo" />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+    </div>
+</section>
+
+<footer class="cs-footer bg-dark">
+
+    <div class="bg-darker pt-2">
+        <div class="container py-sm-3">
+            <div class="row pb-4 mb-2 pt-5 py-md-5">
+
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="media align-items-center">
+                        <i data-feather="shield"></i>
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base text-light mb-1">Software de por vida</h6>
+                            <p class="mb-0 font-size-xs text-light opacity-50">Sin pagos mensuales o anuales</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="media align-items-center">
+                        <i data-feather="umbrella"></i>
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base text-light mb-1">Garantia</h6>
+                            <p class="mb-0 font-size-xs text-light opacity-50">Por 365 dias</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="media align-items-center">
+                        <i data-feather="headphones"></i>
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base text-light mb-1">Soporte tecnico</h6>
+                            <p class="mb-0 font-size-xs text-light opacity-50">Gratuito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="media align-items-center">
+                        <i data-feather="truck"></i>
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base text-light mb-1">Envios nacionales</h6>
+                            <p class="mb-0 font-size-xs text-light opacity-50">Despachamos a todo el pais</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-light mb-5">
+
+            <div class="d-sm-flex align-items-center mb-4 pb-3">
+                <div class="d-flex flex-wrap align-items-center mr-3">
+                    <a class="d-block mr-grid-gutter mt-n1 mb-3 text-white-50" href="index.html" style="width: 108px;">
+              Discovery Systems Pos
+            </a>
+
+                    <!-- <ul class="list-inline font-size-sm pt-2 mb-3">
+              <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">About</a></li>
+              <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Outlets</a></li>
+              <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Affiliates</a></li>
+              <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Support</a></li>
+              <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Terms of use</a></li>
+            </ul> -->
+
+                </div>
+                <div class="d-flex pt-2 pt-sm-0 ml-auto">
+
+                    <a class="social-btn d-flex align-items-center sb-facebook sb-light mr-2 mb-2" href="https://web.facebook.com/dsposcolombia/">
+                        <span class="mx-auto">
+                <i  class="bi-facebook"></i>
+              </span>
+                    </a>
+                    <a class="social-btn d-flex align-items-center sb-instagram sb-light mr-2 mb-2" href="https://www.instagram.com/dsposcolombia/">
+                        <span class="mx-auto">
+                <i  class="bi-instagram"></i>
+              </span>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="d-sm-flex justify-content-between align-items-center pb-4 pb-sm-2">
+                <div class="order-sm-1 mb-3">
+                    <p class="font-size-ms mb-0">
+                        <span class="text-light opacity-50 mr-1">© Discovery Systems Pos - 2021 </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

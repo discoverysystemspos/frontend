@@ -372,17 +372,17 @@ export class ProductoComponent implements OnInit {
     if (tipo === 'entrada') { 
       
       if (this.producto.bought) {        
-        this.producto.bought += cantidad;        
+        this.producto.bought += Number(cantidad);        
       }else {
-        this.producto.bought = cantidad;
+        this.producto.bought = Number(cantidad);
       }
 
     }else {
 
       if (this.producto.damaged) {        
-        this.producto.damaged += cantidad;        
+        this.producto.damaged += Number(cantidad);        
       }else{        
-        this.producto.damaged = cantidad;
+        this.producto.damaged = Number(cantidad);
       }
 
     }
